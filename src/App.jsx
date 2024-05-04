@@ -1,11 +1,11 @@
 import './App.css'
-import CuentaRegresiva from './components/CuentaRegresiva/CuentaRegresiva'
+import Portada from './components/Portada/Portada'
 
 function App() {
 
   return (
     <>
-      <CuentaRegresiva/>
+      <Portada/>
     </>
   )
 }

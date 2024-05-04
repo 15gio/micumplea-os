@@ -3,20 +3,23 @@ import './CuentaRegresiva.css'
 
 const CuentaRegresiva = () => {
   return (
-    <div className='main--container'>
-        <div className='container dias'>
-            <p className='time--number'>00</p>
+    <div className='countdown--container'>
+        <div className='container'>
+            <p className='time--number'>00</p>  
             <p className='time--info'>Días</p>
         </div>
-        <div className='container horas'>
+        <div className='separador time--number'>:</div>
+        <div className='container'>
             <p className='time--number'>00</p>
             <p className='time--info'>Horas</p>
         </div>
-        <div className='container minutos'>
+        <div className='separador time--number'>:</div> 
+        <div className='container'>
             <p className='time--number'>00</p>
             <p className='time--info'>Minutos</p>
         </div>
-        <div className='container segundos'>
+        <div className='separador time--number'>:</div>
+        <div className='container'>
             <p className='time--number'>00</p>
             <p className='time--info'>Segundos</p>
         </div>
