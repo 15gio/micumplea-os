@@ -1,0 +1,15 @@
+.building-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.building-container h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 75px;
+    margin: 100px 0px;
+}   
+
