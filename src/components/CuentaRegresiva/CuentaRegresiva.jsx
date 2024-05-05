@@ -44,7 +44,6 @@ const CuentaRegresiva = () => {
   })
 
   
-  
   return (
     <div className='countdown-container'>
       <section className='timer-info'>
