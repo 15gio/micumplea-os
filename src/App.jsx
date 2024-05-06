@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import Portada from './components/Portada/Portada'
+import Card from './components/Card/Card'
 
 function App() {
   const [count, setCount] = useState(0)
