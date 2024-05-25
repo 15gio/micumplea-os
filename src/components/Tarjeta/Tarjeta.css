@@ -1,15 +1,15 @@
-.about-container{
+.tarjeta-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 0px 100px;
+    background-color: #102940;
 
     & h2{
-        margin-top: 90px;
+        margin-top: 50px;
         font-family: "Playfair Display";
         font-size: 40px;
         font-weight: 300;
         text-transform: uppercase;
-        color:  var(--color-principal);
+        color:  white;
     }
 }

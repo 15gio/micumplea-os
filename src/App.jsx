@@ -3,14 +3,15 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Portada from './components/Portada/Portada'
 import About from './components/About/About'
+import Tarjeta from './components/Tarjeta/Tarjeta'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>  
       <Portada/>
       <About/>
+      <Tarjeta/>
     </>
   )
 }
