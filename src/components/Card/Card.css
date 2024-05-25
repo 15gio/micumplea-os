@@ -7,4 +7,10 @@
     width: 90%;
     max-width: 350px;
     border-radius: 20px;
+
+    & h3, p, button{
+        font-family: "Playfair Display", serif;
+        text-transform: uppercase;
+        
+    }
 }
