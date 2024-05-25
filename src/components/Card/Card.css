@@ -6,11 +6,36 @@
     background-color: var(--color-principal);
     width: 90%;
     max-width: 350px;
-    border-radius: 20px;
+    border-radius: 30px;
+    padding: 20px;
 
     & h3, p, button{
         font-family: "Playfair Display", serif;
         text-transform: uppercase;
-        
+        font-weight: 200;
+
+    }
+
+    & h3{
+        font-size: 35px;
+        margin: 10px 0px 40px;
+    }
+
+    & p{
+        font-size: 17x;
+        margin-bottom: 15px;
+    }
+
+    & button{
+        margin-top: 20px;
+        height: 50px;
+        width: 200px;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px;
+        color: var(--color-principal);
+        background-color: var(--color-secundario);
+        border: none;
+        border-radius: 25px;
     }
 }

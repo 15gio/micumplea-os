@@ -3,6 +3,7 @@
 
 
 *{
+  max-width: 550px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +12,7 @@
   color: white;
 
   --color-principal: #4D7298;
+  --color-secundario: #7FC8F8;
 }
 body{
   background-color: #000000;

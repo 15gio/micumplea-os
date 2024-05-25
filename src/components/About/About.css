@@ -8,6 +8,7 @@
         font-family: "Playfair Display";
         font-size: 40px;
         font-weight: lighter;
+        text-transform: uppercase;
         color:  var(--color-principal);
     }
 }
