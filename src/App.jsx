@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import './App.css'
 import Portada from './components/Portada/Portada'
 import About from './components/About/About'

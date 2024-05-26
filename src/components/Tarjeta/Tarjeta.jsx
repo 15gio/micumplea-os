@@ -1,16 +1,19 @@
 import './Tarjeta.css'
 import React from 'react'
-import { useHref, useMatch } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import { useHref } from 'react-router-dom'
 import Card from '../Card/Card';
 
 const Tarjeta = () => {
 
     const match = useHref();
+    console.log(match)
 
   return (
     <div className='tarjeta-container'>
         <h2>Tarjeta</h2>
-        {match == "/micumple/" ? 
+          
+        {match == "#/" ? 
             <Card title="Cena"
                 description="Valor adultos: $25.000"
                 secondDescription="Valor adolecentes: $18.000"
@@ -18,12 +21,13 @@ const Tarjeta = () => {
                 fourthDescription="Valor menores de 3 años: $6.000"
                 buttonText="datos de pago"
             /> : 
-            match == "/micumple/trasnoche" ? 
+            match == "#/trasnoche" ? 
             <Card title="Trasnoche"
                 description="Valor de la tarjeta"
                 secondDescription="$8.000"
-                buttonText="datos de pago"
-            /> : ""}
+                buttonText="datos de pago"/> 
+            : ""
+        }
     </div>  
   )
 }
