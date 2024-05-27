@@ -19,12 +19,14 @@ const Tarjeta = () => {
                 secondDescription="Valor adolecentes: $18.000"
                 thirdDescription="Valor menores (4 a 12 años): $11.000" 
                 fourthDescription="Valor menores de 3 años: $6.000"
+                sw="render"
                 buttonText="datos de pago"
             /> : 
             match == "#/trasnoche" ? 
             <Card title="Trasnoche"
                 description="Valor de la tarjeta"
                 secondDescription="$8.000"
+                sw="render"
                 buttonText="datos de pago"/> 
             : ""
         }
