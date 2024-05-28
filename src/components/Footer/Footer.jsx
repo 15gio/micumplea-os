@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer-container'>
         <h3>¡Te espero para compartir una noche inolvidable!</h3>
         <div className='footer-end'>
-            <p>Creado con ❤️ por <a href="https://github.com/FJCon">Fernando Conil</a></p>
+            <p>Creado con ❤️ por Fernando Conil</p>
         </div>
     </div>
   )
