@@ -2,6 +2,7 @@ import './Tarjeta.css'
 import React from 'react'
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import { useHref } from 'react-router-dom'
+import Footer from '../Footer/Footer';
 import Card from '../Card/Card';
 
 const Tarjeta = () => {
@@ -30,6 +31,8 @@ const Tarjeta = () => {
                 buttonText="datos de pago"/> 
             : ""
         }
+
+        <Footer/>
     </div>  
   )
 }
