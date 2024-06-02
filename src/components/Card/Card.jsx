@@ -29,7 +29,11 @@ const Card = ({title, description, secondDescription, thirdDescription, fourthDe
                   <p>Jueves 20 de Junio</p>
                 </div>
                 <div class="section">
-                  <h3>Enviar comprobante</h3>
+                  <h3>Fecha límite para pagar tarjeta</h3>
+                  <p>Sábado 20 de Julio</p>
+                </div>
+                <div class="section">
+                  <h3>Enviar comprobante:</h3>
                   <p>342-4733499 <br>ó <br>342-4448712</p>
                 </div>
 

@@ -17,6 +17,7 @@
 body{
   background-color: #000000;
 }
+
 div.trasf-container{
   display: flex;
   flex-direction: column;
